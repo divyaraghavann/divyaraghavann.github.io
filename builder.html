@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Ninja Build</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+	<link href='css/reset.css' rel='stylesheet' type='text/css'>
+	<link href='css/style.css' rel='stylesheet' type='text/css'>
+	<link href='css/form.css' rel='stylesheet' type='text/css'>
+	<link href='css/menu.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header class="main_h">
+	    <div class="row">
+	        <a class="logo" href="#">FOOD NINJA</a>
+	        <div class="mobile-toggle">
+	            <span></span>
+	            <span></span>
+	            <span></span>
+	        </div>  <!-- / div mobile-toggle -->
+
+	        <nav>
+	            <ul>
+	                <li><a href=".sec01">BUILD LANDING PAGE</a></li>
+	                <li><a href=".sec02">BUILD MENU</a></li>
+	                <li><a href=".sec03">BUILD RESERVATIONS</a></li>
+	                <li><a href=".sec04">BUILD CONTACT</a></li>
+	                <li><a href=".sec04">GENERATE PAGE</a></li>
+	            </ul>
+	        </nav>  <!-- / nav -->
+	    </div> <!-- / div row -->
+	</header> <!-- / header -->
+
+	<div class="hero builder">
+	    <h1>FOOD NINJA</h1>
+	    <span>LET'S BUILD THAT PERFECT WEBSITE</span>
+	</div> <!-- / div hero -->
+
+	<div class="row content sec01">
+ 		<div class="about-builder">
+ 			<h1>BUILD LANDING PAGE</h1>
+			<form id="lp-form">
+				<label>
+					<input id="name" type="text" required />
+					<div  class="label-text">Restaurant name</div>
+				</label>
+				<label>
+					<input id="tag" type="text" required />
+					<div class="label-text">Restaurant tagline</div>
+				</label>
+				<label>
+					<input id="hours" type="text" required />
+					<div class="label-text">Restaurant hours</div>
+				</label>
+				<label>
+					<input id="location" type="text" required />
+					<div class="label-text">Restaurant location</div>
+				</label>								
+				<label>
+					<input id="story" type="text" required />
+					<div class="label-text">Restaurant story</div>
+				</label>
+				<input type="submit" value="Add landing page" id="lp-button">
+			</form>
+		</div>
+	</div> <!-- / div row -->
+
+	<div class="features menu sec02">
+		<h1>BUILD MENU</h1>
+		<div>
+    		<form id="menu-form">
+			<label>
+				<input id="item-name" type="text" required />
+				<div class="label-text">Item name</div>
+			</label>
+			<label>
+				<input id="item-price" type="number" required />
+				<div class="label-text">item price</div>
+			</label>
+			<label>
+				<input id="item-desc" type="text" required />
+				<div class="label-text">Item description</div>
+			</label>
+			<input type="button" value="Add menu item" id="menu-button">
+			<input type="submit" value="Complete menu" id="c-menu-button">
+		</form>
+		</div>
+	</div> 
+
+	<div class="row content sec03">
+ 		<div class="sample-menu">
+		    <h1>BUILD RESERVATIONS</h1>
+		    <form id="resv-form">
+				<label>
+					<input id="opentable-widget" type="text" required />
+					<div class="label-text">Opentable Widget</div>
+				</label>
+				<input type="submit" value="Complete reservations" id="resv-button">
+			</form>
+		</div>
+	</div> <!-- / div row -->
+
+	<div class="features contact-us sec04">
+    	<h1>BUILD CONTACT US</h1>
+		<div>
+    		<form id="contact-us-form">
+			<label>
+				<input id="phone" type="tel" required />
+				<div class="label-text">Contact number</div>
+			</label>
+			<label>
+				<input id="email" type="email" required />
+				<div class="label-text">Contact email</div>
+			</label>
+			<input type="submit" value="Complete Contact Us" id="contact-us-button">
+		</form>
+		</div>
+	</div> 
+
+	<div class="row content generate">
+		<button type="button" class="generate-button">GENERATE WEBSITE</button>
+	</div>
+
+	<div id="new-html">
+		<div class="restaurant-in-progress restaurant">
+			<header class="main_h">
+			    <div class="row">
+			        <a class="logo dynamic-rname" href="#">RESTAURANT NAME</a>
+
+			        <div class="mobile-toggle">
+			            <span></span>
+			            <span></span>
+			            <span></span>
+			        </div>  <!-- / div mobile-toggle -->
+
+			        <nav>
+			            <ul>
+			                <li><a href=".sec01">OUR STORY</a></li>
+			                <li><a href=".sec02">HOURS</a></li>
+			                <li><a href=".sec03">MENU</a></li>
+			                <li><a href=".sec04">LOCATION</a></li>
+			                <li><a href=".sec05">RESERVATIONS</a></li>
+			                <li><a href=".sec06">CONTACT US</a></li>
+			            </ul>
+			        </nav>  <!-- / nav -->
+			    </div> <!-- / div row -->
+			</header> <!-- / header -->
+
+			<div class="hero">
+			    <h1 class="dynamic-rname">RESTAURANT NAME</h1>
+			    <span class="dynamic-rtag">RESTAURANT TAGLINE</span>
+			</div> <!-- / div hero -->
+
+			<div class="row content sec01">
+			    <h1>OUR STORY</h1>
+			    <p class="dynamic-story">RESTAURANT STORY</p> 
+			</div>
+
+			<div class="features story-image sec02">
+				<h1>HOURS</h1>
+				<div>
+					<p class="dynamic-hours">RESTAURANT HOURS</p>
+				</div>
+			</div>
+
+			<div class="row sec03">
+				<div id="menu">
+					<header class="menu-logo">
+						<h2>Menu</h2>
+					</header>
+
+				    <div id="menu-body">
+						<div class="col1">
+							<div class="menu-row">
+								<h3 class="">Wild Mushroom with Kale</h3>
+								<p>$10.5</p>
+							</div>
+							<p class="desc">Mushroom / Veggie / White Sources</p>
+						</div>
+						
+						<div class="col2">
+							<div class="menu-row">
+								<h3 class="">Wild Mushroom with Kale</h3>
+								<p>$10.5</p>
+							</div>
+							<p class="desc">Mushroom / Veggie / White Sources</p>
+						</div>
+
+						<div class="col1">
+							<div class="menu-row">
+								<h3 class="">Lemon and Garlic Green Beans</h3>
+								<p>$14.5</p>
+							</div>
+							<p class="desc">Lemon / Garlic / Beans</p>
+						</div>
+
+						<div class="col2">
+							<div class="menu-row">
+								<h3 class="">Lemon and Garlic Green Beans</h3>
+								<p>$14.5</p>
+							</div>
+							<p class="desc">Lemon / Garlic / Beans</p>
+						</div>
+					</div> 
+				</div>
+			</div>
+
+			<div class="features food-image sec04">
+				<h1>LOCATION</h1>
+				<div>
+					<p class="dynamic-location">LOCATION HERE</p>
+				</div>
+			</div>
+
+			<div class="row content sec05">
+				<h1>RESERVATIONS</h1>
+				<p class="dynamic-opentable">OPENTABLE WIDGET HERE<!-- <script type='text/javascript' src='https://www.opentable.com/widget/reservation/loader?rid=215323&type=standard&theme=wide&iframe=true&overlay=false&domain=com&lang=en-US'></script> --></p>
+			</div>
+
+			<div class="features sec06 contact-image">
+			    <h1>CONTACT US</h1>
+				<div>
+					<p class="dynamic-phone">PHONE</p>
+					<p class="dynamic-email">EMAIL</p>
+				</div>
+			</div> 
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+
+</body>
+</html>

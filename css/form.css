@@ -1,0 +1,86 @@
+form {
+  text-align: left;
+  font-family: "Open Sans", Helvetica;
+  padding-left: 75px;
+}
+
+label {
+  display: block;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  text-align: left;
+}
+
+label .label-text {
+  color: #9B9B9B;
+  cursor: text;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  -webkit-transform: translateY(-34px);
+  transform: translateY(-34px);
+  transition: all 0.3s;
+  border: none;
+}
+
+label input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #4A4A4A;
+  color: darkorange;
+  font-size: 36px;
+  letter-spacing: -1px;
+  outline: 0;
+  padding: 5px 20px;
+  text-align: left;
+  transition: all 0.3s;
+  width: 200px;
+}
+
+label input:focus {
+  max-width: 100%;
+  width: 400px;
+}
+
+label input:focus + .label-text {
+  color: #F0F0F0;
+  font-size: 13px;
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+label input:valid + .label-text {
+  font-size: 13px;
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+input[type=submit], input[type=button], .generate-button {
+  background-color: darkorange;
+  border: 2px solid darkgreen;
+  color: darkgreen;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 200ms;
+  letter-spacing: 2px;
+  /*opacity: 0.8;*/
+}
+input[type=submit]:hover, input[type=submit]:focus, input[type=button]:hover, input[type=button]:focus, .generate-button:hover, .generate-button:focus {
+  background-color: darkgreen;
+  color: darkorange;
+  border-color: darkorange;
+  outline: 0;
+}
+
+.menu form, .contact-us form {
+	text-align: right;
+	padding-right: 125px;s
+}
+
+.menu label, .menu label input, .contact-us label, .contact-us label input {
+	text-align: right;
+} 
+
+

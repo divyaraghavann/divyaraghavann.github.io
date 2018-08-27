@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic);
+
+
+#menu {
+	max-width: 900px;
+	font: 400 16px/1.8 "Montserrat", sans-serif;
+	color: #666;
+	text-align: center;
+	background: #fff;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
+#menu-body, .menu-row {
+	display: flex;
+	/*justify-content: center;*/
+	flex-wrap: wrap;
+	text-align: left;
+}
+
+
+.menu-logo {
+	font-family: "Montserrat", sans-serif;
+	font-size: 35px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+  	color: red;
+  	text-align: left;
+  	text-transform: uppercase;
+}
+
+.menu-logo p {
+	font: 400 16px/1.2 "Montserrat", sans-serif;
+	color: #a7a9ac;
+	letter-spacing: 2px;
+}
+
+.col1, .col2 {
+	width: 40%;
+}
+
+.menu-row {
+	font-weight: 700;
+}
+.menu-row h3 {
+	width: 80%;
+}
+
+.menu-row p {
+	width: 20%;
+	/*padding: 0px;*/
+}
+
+/*.desc {
+	padding-bottom: : 10px;
+}*/
+.item {
+	margin: 10px;
+}
+
+hr {
+	color: rgba(0,0,0,.1);
+}
+
+@media only screen and (max-width: 600px) {
+	.menu {
+		padding: 30px 0;
+	}
+
+    #menu-body, .menu-row {
+        display: block;
+        text-align: center;
+    }
+
+    .col1, .col2, .menu-row h3, .menu-row p {
+		width: 100%;
+	}
+
+	.menu-row p {
+		font-weight: 400;
+
+	}
+	.desc {
+		display: None;
+	}
+
+	.menu-logo {
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+
+	.menu-logo p {
+		font-size: 13px;
+	}
+}
+
+.restaurant .sec02 {
+	text-align: right;
+}
+
+#menu {
+  padding: 100px 50px;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu h1 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 35px;
+	max-width: 200px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 10px;
+}
